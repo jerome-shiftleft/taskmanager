@@ -2,8 +2,7 @@ $(function () {
   console.log('task.js loaded!');
 
   $(document).on('click', '.expand-task', function () {
-    console.log('toggling description');
-    //$(this).closest('.task').find('.task-content').toggle();
+    console.log('toggling description');    
     $(this).closest('.task').toggleClass('expanded-task');
   });
 
