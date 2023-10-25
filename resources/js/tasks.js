@@ -38,8 +38,6 @@ $(function () {
       Livewire.emitTo('task-manager', 'createTask', data);
     }
 
-    //Livewire.emit('createTask', data);
-
   }); // end of $('#create-task-form').on('submit', function (e)
 
   $(document).on('click', '.update-task-modal-btn', function () {
@@ -146,6 +144,5 @@ $(function () {
       console.log(`index[${index}] id:${id} priority:${priority} title:${title}`);
     }); // end of $('#task-list > .task').each(function (index) {
   }); // end of window.addEventListener('listOrder', event => {
-
 
 }); // end of initialize jquery
