@@ -47,8 +47,8 @@ DB_DATABASE=taskmanager
 DB_USERNAME=root
 DB_PASSWORD=
 ```
-Run **`php artisan migrate --seed`** to generate dummy data for the database.<br>
-Run **`php artisan migrate:fresh --seed`** or **`source seed.sh`** if you want to regenerate fresh new dummy data.<br>
+Run **`php artisan migrate --seed`** or **`source seed.sh`**  to generate dummy data for the database.<br>
+Run **`php artisan migrate:fresh --seed`** or **`source fresh-seed.sh`** if you want to regenerate fresh new dummy data.<br>
 The generated dummy data are random latin words. If you want english dummy data that makes sense, you can import ***database/dump/test.sql***
 ```
 mysql -u root -p taskmanager
