@@ -1,0 +1,21 @@
+#topbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  height: 50px;
+  color: $light-font-color;
+  background-color: $bar-dark;
+
+  &, a {
+    color: $light-font-color;
+  } // end of &, a
+
+  .logout-form {
+    margin-left: 15px;
+    margin-right: 30px;
+  } // end of .logout-form
+
+} // end of #topbar

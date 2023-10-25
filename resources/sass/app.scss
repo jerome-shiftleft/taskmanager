@@ -1,0 +1,24 @@
+@import '~bootstrap/scss/bootstrap';
+@import '~jquery-ui/themes/base/all.css';
+@import '~select2/dist/css/select2.css';
+@import '~select2-bootstrap-5-theme/dist/select2-bootstrap-5-theme.css';
+@import '~daterangepicker/daterangepicker.css';
+
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+
+@import 'variables';
+@import 'presets';
+@import 'utilities';
+@import 'functions';
+@import 'mixins';
+@import 'style';
+@import 'select2';
+@import 'sidebar';
+@import 'topbar';
+@import 'login';
+@import 'tasks';
+@import 'modal';
+@import 'dashboard';

@@ -1,0 +1,126 @@
+#task-manager {
+  width: 100%;  
+  margin: 0 auto;
+}
+
+#select-project-wrap {
+  position: relative;  
+  @extend .flex-wrap;
+  align-items: center;
+}
+
+.task-preloader {
+  margin-left: 10px;
+}
+
+#select-project {
+  max-width: 360px;
+  @media (max-width: 500px) {
+    max-width: 235px;
+  }
+  @media (max-width: 360px) {
+    max-width: 180px;
+  }
+}
+
+#task-list {  
+  margin-top: 10px;
+  max-width: 360px;  
+}
+
+.task {
+  padding: 10px;
+  width: 360px;
+  //border: 1px solid $default-border-color;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  background-color: rgba(255,255,255, 0.7);
+  @extend .shadow-md;
+  border: 1px solid transparent;
+  
+  &.ui-sortable-helper,
+  &.draggable--over {        
+    border: 1px solid $dark-secondary;
+  }
+
+  @media (max-width: 449px) {
+    width: 285px;
+  }
+
+} // end of .task
+
+.task-header {
+  display: flex;
+  justify-content: space-between;  
+}
+
+.task-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+  flex-grow: 1;
+  cursor: move;
+}
+
+.task-header-actions {
+  display: flex;
+  flex-grow: 0;
+  &, a {
+    color: $default-font-color;
+  }
+  a {
+    margin: 0 7px;
+  }
+}
+
+.task-content {
+  max-height: 0;
+  padding-top: 0;
+  font-size: 13px;
+  overflow-y: hidden;
+  transition: transition(max-height), transition(padding-top);
+}
+
+.expand-task .fa-angle-down {
+  transform: rotate(0);
+  transition: transition(transform);
+  transform-origin: center center;
+}
+
+.task.expanded-task {
+  .task-content {    
+    max-height: 50vh;
+    padding-top: 10px;
+  }
+  .expand-task .fa-angle-down {
+    transform: rotate(180deg);    
+  }  
+} // end of .task.expanded-task
+
+#create-task-modal-btn {  
+  margin-left: 10px;
+}
+
+.validation-error {
+  margin-top: 10px;
+}
+
+.dashboard.dark {
+
+  .task {
+    background-color: rgba(35, 34, 39, 0.6);
+    &.ui-sortable-helper,
+    &.draggable--over {    
+      &, a {
+        color: #fff !important;
+      }
+      border: 1px solid #fff;
+    }
+  } // end of .task
+
+  .task-header-actions {
+    &, a {
+      color: $light-font-color;
+    }    
+  }
+}

@@ -1,0 +1,56 @@
+.task-modal {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0, 0.7);
+
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  .modal-title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  form {
+    width: 100%;
+    max-width: 360px;
+    @media (max-width: 425px) {
+      max-width: 270px;
+      margin-left: 55px;
+    }
+    @media (max-width: 360px) {
+      max-width: 250px;
+    }
+  }
+
+  .validation-error {
+    margin-bottom: 5px;
+    @extend .text-danger;
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .form-inputs {
+    margin-bottom: 10px;
+    .form-control,
+    .form-select {
+      margin-bottom: 15px;
+    }
+  }
+
+  .modal-actions {
+    display: flex;
+    justify-content: center;
+    > .btn {
+      width: 100px;
+      margin: 0 5px;
+    }
+  } // end of .modal-actions
+
+} // end of create-task-modal

@@ -1,0 +1,12 @@
+body {  
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  color: $default-font-color;
+  background-color: $default-bg-color;
+  transition: background-color $trans-duration $trans-timing;
+} 
+
+.page-wrap {
+  position: relative;
+  min-height: 100vh;
+}
