@@ -1,10 +1,12 @@
 # Task Manager
 
-**NOTE:** Please view this readme on [github](https://github.com/jerome-shiftleft/coalition-technologies) so you can view the embedded images and view the intended readme style/format.
+Task manager test for Coalition Technologies
+
+**NOTE:** Please view this readme on [github](https://github.com/jerome-shiftleft/taskmanager) so you can view the embedded images and view the intended readme style/format.
 
 ## Installation
 
- Download/clone this [repository](https://github.com/jerome-shiftleft/coalition-technologies)
+ Download/clone this [repository](https://github.com/jerome-shiftleft/taskmanager)
 
  **NOTE:** To avoid running into command errors, please use linux-compatible terminal such as git bash
 ```
