@@ -131,7 +131,7 @@ Here are the location of some important files/folders.
 entry page: ***/resources/views/dashboard/index.blade.php***<br>
 layout: ***/resources/views/layouts/dashboard.blade.php***
 
-livewire classes: ***/app/Http/livewire***<br>
+livewire classes: ***/app/Http/Livewire***<br>
 livewire views: ***/resources/views/livewire***
 
 js files: ***/resources/js***<br>
