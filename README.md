@@ -12,6 +12,12 @@ Task manager test for Coalition Technologies
 
  Download or clone this [repository](https://github.com/jerome-shiftleft/taskmanager)
 
+**HTTPS Method**
+```
+git clone https://github.com/jerome-shiftleft/taskmanager.git taskmanager
+cd taskmanager
+```
+ **SSH Method** - Your ssh public key must be added to your github account. Please [click here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) for reference.
 ```
 git clone git@github.com:jerome-shiftleft/coalition-technologies.git taskmanager
 cd taskmanager
