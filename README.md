@@ -8,7 +8,7 @@ Task manager test for Coalition Technologies
 
 **NOTE:** While you can certainly use the files provided in this zip archive, I strongly recommend cloning directly from the [github repository](https://github.com/jerome-shiftleft/taskmanager#readme). This will guarantee that you have access to the most current updates and any last-minute bug fixes that may have been implemented.
 
-**NOTE:** To avoid running into command errors, please use linux-compatible terminal such as git bash.
+**NOTE:** To ensure a smooth experience and avoid potential command errors, it is recommended to use a Linux-compatible terminal such as Git Bash.
 
  Download/clone this [repository](https://github.com/jerome-shiftleft/taskmanager)
 
@@ -17,7 +17,7 @@ git clone git@github.com:jerome-shiftleft/coalition-technologies.git taskmanager
 cd taskmanager
 ```
 
-Copy ***.env.example*** file and name it ***.env***
+Create a copy of ***.env.example*** file and name it ***.env***
 ```
 cp .env.example .env
 ```
