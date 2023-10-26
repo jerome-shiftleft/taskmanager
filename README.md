@@ -6,9 +6,12 @@ Task manager test for Coalition Technologies
 
 ## Installation
 
+**NOTE:** While you can certainly use the files provided in this zip archive, I strongly recommend cloning directly from the [github repository](https://github.com/jerome-shiftleft/taskmanager#readme). This will guarantee that you have access to the most current updates and any last-minute bug fixes that may have been implemented.
+
+**NOTE:** To avoid running into command errors, please use linux-compatible terminal such as git bash.
+
  Download/clone this [repository](https://github.com/jerome-shiftleft/taskmanager)
 
- **NOTE:** To avoid running into command errors, please use linux-compatible terminal such as git bash
 ```
 git clone git@github.com:jerome-shiftleft/coalition-technologies.git taskmanager
 cd taskmanager
@@ -59,6 +62,13 @@ source database/dump/test.sql;
 
 ## Task Manager Usage
 
+### Viewing the site
+
+If you have already configured a virtual host for this project, you can conveniently access the site via a custom domain, such as https://taskmanager.local. However, if you haven't set up a virtual host, you can still view the site by simply running the following command:
+```
+php artisan serve
+```
+
 ### Viewing Tasks
 Select a project first then the tasks under that project will show.
 
@@ -88,11 +98,13 @@ Drag the task title to reorder the task priority.
 
 ## Compiling Assets (Laravel Mix)
 
-**`npm run dev`** compiles assets for development. Generates source maps for better debugging.<br><br>
+**`npm run dev`** compiles assets for development. Generates source maps for better debugging.
+
 **`npm run watch`** compiles assets for development, just like **`npm run dev`** but watches files for changes.<br>
 If you modify any source file, it will automatically recompile the affected assets.<br>
 Useful during development to automatically compile assets as you work without needing to run the build command repeatedly.<br>
-If **`BROWSER_SYNC=true`** in .env, it will automatically reloads the browser after compiling.<br><br>
+If **`BROWSER_SYNC=true`** in .env, it will automatically reloads the browser after compiling.
+
 **`npm run prod`** compiles assets for production. Minifies the code to reduce file size.
 
 **NOTE**: The following files are included in .gitignore to prevent merge conflicts when compiling assets and deploying.<br>
