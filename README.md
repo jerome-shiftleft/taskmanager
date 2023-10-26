@@ -6,7 +6,7 @@ Task manager test for Coalition Technologies
 
 ## Installation
 
-**NOTE:** While you can certainly use the files provided in this zip archive, I strongly recommend cloning directly from the [github repository](https://github.com/jerome-shiftleft/taskmanager#readme). This will guarantee that you have access to the most current updates and any last-minute bug fixes that may have been implemented.
+**NOTE:** While you can certainly use the files provided in this zip archive, I strongly recommend cloning directly from the [github repository](https://github.com/jerome-shiftleft/taskmanager). This will guarantee that you have access to the most current updates and any last-minute bug fixes that may have been implemented.
 
 **NOTE:** To ensure a smooth experience and avoid potential command errors, it is recommended to use a Linux-compatible terminal such as Git Bash.
 
