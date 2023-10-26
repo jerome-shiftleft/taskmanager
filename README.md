@@ -64,7 +64,10 @@ source database/dump/test.sql;
 
 ### Viewing the site
 
-Before viewing the site, please make sure you have executed `npm run dev`
+Prior to accessing the site, ensure that you've executed the following command:
+```
+npm run dev
+```
 
 If you have already configured a virtual host for this project, you can conveniently access the site via a custom domain, such as https://taskmanager.local. However, if you haven't set up a virtual host, you can still view the site by simply running the following command:
 ```
