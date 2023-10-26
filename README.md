@@ -2,7 +2,7 @@
 
 Task manager test for Coalition Technologies
 
-**NOTE:** Please view this readme on [github](https://github.com/jerome-shiftleft/taskmanager#readme) so you can view the embedded images and view the intended readme style/format.
+**NOTE:** Please view this readme on [github](https://github.com/jerome-shiftleft/taskmanager#readme). This will allow you to access embedded images and experience the intended readme style and format as designed.
 
 ## Installation
 
