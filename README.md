@@ -10,7 +10,7 @@ Task manager test for Coalition Technologies
 
 **NOTE:** To ensure a smooth experience and avoid potential command errors, it is recommended to use a Linux-compatible terminal such as Git Bash.
 
- Download or clone this [repository](https://github.com/jerome-shiftleft/taskmanager)
+ **Download or clone this [repository](https://github.com/jerome-shiftleft/taskmanager)**
 
 **HTTPS Method**
 ```
