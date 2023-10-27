@@ -17,7 +17,7 @@ Task manager test for Coalition Technologies
 git clone https://github.com/jerome-shiftleft/taskmanager.git taskmanager
 cd taskmanager
 ```
- **SSH Method** - Your public ssh key must be added to your github account. Please <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank">click here</a> for reference.
+ **SSH Method** - Your public ssh key must be added to your github account. Please <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account" target="_blank">click here</a> for reference.
 ```
 git clone git@github.com:jerome-shiftleft/coalition-technologies.git taskmanager
 cd taskmanager
