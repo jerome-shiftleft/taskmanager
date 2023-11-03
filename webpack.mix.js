@@ -54,8 +54,26 @@ if (sass_debug_enable) {
   });
 } // end of if (sass_debug_enable)
 
+var dev_cache_bust = process.env.DEV_CACHE_BUST;
+
+if (dev_cache_bust) {
+  dev_cache_bust = dev_cache_bust.toLowerCase();
+} // End of if (dev_cache_bust)
+
+var dev_cache_bust_enable = false;
+
+switch (dev_cache_bust) {
+  case 'true':
+  case '1':
+  case 'yes':
+    dev_cache_bust_enable = true;
+    break;
+  default:
+    dev_cache_bust_enable = false;
+} // End of switch(sass_debug)
+
 // laravel mix css/js cache busting/versioning
-if (mix.inProduction()) {
+if (mix.inProduction() || dev_cache_bust_enable) {
   mix.version();
 } // End of if (mix.inProduction())
 

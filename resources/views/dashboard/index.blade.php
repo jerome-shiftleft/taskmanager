@@ -23,10 +23,15 @@
   </div><!--/#main-->
 @endsection
 
+<?php
+$phpVariable = ['test1', 'test2', 'test3'];
+$jsonString = json_encode($phpVariable);
+?>
+
 @push('scripts')
   <script>
-    $(function() {
-
-    }) // end of initialize jquery
+    window.myData = @json($phpVariable);
+    //window.myData = <?php echo $jsonString ?>;  
   </script>
 @endpush
+
